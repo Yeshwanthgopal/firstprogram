@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-    int m,n,l,sum=0,i;
+    int j,n,l,sum=0,i;
 cout<<"enter number";
-cin>>m;
-int num=m;
+cin>>j;
+int num=j;
 while(m!=0)
 {
-n=m%10;
+n=j%10;
 l=n*n*n;
 sum=sum+l;
-m=m/10;
+j=j/10;
 }
 if(sum==num)
     cout<<"armstrong";
